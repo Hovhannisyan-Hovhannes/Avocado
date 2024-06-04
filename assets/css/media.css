@@ -1,0 +1,23 @@
+@media (max-width: 1400px){
+  
+} 
+
+@media (max-width: 1200px){
+    
+} 
+
+@media (max-width: 991px){
+    
+}
+
+@media (max-width: 767px){
+    .header-block{
+        flex-direction: column;
+        width: 100%;
+    }
+    }
+
+
+@media (max-width: 576px){
+    
+}

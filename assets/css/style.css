@@ -15,12 +15,14 @@
 .header-block{
     margin-top: 15px;
     width: 50%;
+    gap: 15px;
    
 }
 .pictures img{
     position: relative;  
-    width:100%;
-    height:100%;
+    margin: 5px;
+    width: 525px;
+    height: 515px;
 }
 h1{
     position: absolute;
@@ -32,10 +34,14 @@ h1{
 }
 .coment {
     border: 4px solid;
-    border-color: rgb(195, 191, 191);
-    width: 50%;
-    height: 50%;
+    border-color: rgba(195, 191, 191, 0.271);
+    background-color:white;
+    color: rgb(43, 43, 43);
+    width: 250px;
+    height: 250px;
+    margin: 5px;
     padding:50px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .coment p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -49,7 +55,7 @@ h1{
 .sun{
     background-color: rgb(216, 213, 213);
     color: rgb(43, 43, 43);
-    width: 100%;
+    width: 250px;
     height: 250px;
     margin: 5px;
     padding:50px 30px;
@@ -58,16 +64,70 @@ h1{
     
 }
 .hotdog img{
-    width:250px;
-    height:95%;
+    width: 250px;
+    height: 250px;
     margin:5px;
 }
 .map img{
-    width:250px;
-    height:250px;
+    width: 250px;
+    height: 250px;
+    margin: 5px;
 }
 .images img{
+   
+}
+
+.reservation{
+    background-color: rgb(56, 205, 78);
+    color: rgb(43, 43, 43);
+    width: 525px;
+    height: 250px;
     margin: 5px;
-    width: 100%;
-    height: 100%;
+    padding:50px 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.reservation h3{
+    font-size: 30px;
+}
+.reservation p{
+    font-size: 50px;
+}
+.shef{
+    gap: 15px;
+    margin-top: 15px;
+    
+}
+.sun a{
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+}
+.sun a:hover{
+    color: rgb(4, 75, 4);
+}
+h4{
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.footer{
+    border-top:1px solid;
+    border-color: gray;
+    margin: 20px;
+}
+
+.avocado a{
+    color: rgb(21, 157, 39);
+    text-decoration: none;
+}
+.avocado a:hover{
+    color: rgb(12, 57, 12);
+}
+.icons i{
+    color: green;
+    width: 32px;
+    height: 32px;
 }
