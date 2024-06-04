@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin:0 auto;
+    padding: 0 15px;
+    
+}
+.header-block{
+    margin-top: 15px;
+    width: 50%;
+   
+}
+.pictures img{
+    position: relative;  
+    width:100%;
+    height:100%;
+}
+h1{
+    position: absolute;
+    top: 35%;
+    left: 17%;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.coment {
+    border: 4px solid;
+    border-color: rgb(195, 191, 191);
+    width: 50%;
+    height: 50%;
+    padding:50px 30px;
+}
+.coment p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    padding:  10px 0;
+}
+.coment i{
+    color: grey;
+}
+
+.sun{
+    background-color: rgb(216, 213, 213);
+    color: rgb(43, 43, 43);
+    width: 100%;
+    height: 250px;
+    margin: 5px;
+    padding:50px 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.hotdog img{
+    width:250px;
+    height:95%;
+    margin:5px;
+}
+.map img{
+    width:250px;
+    height:250px;
+}
+.images img{
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+}
