@@ -14,9 +14,7 @@
 }
 .header-block{
     margin-top: 15px;
-    width: 50%;
-    gap: 15px;
-   
+    width: 50%;  
 }
 .pictures img{
     position: relative;  
@@ -32,6 +30,7 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
+
 .coment {
     border: 4px solid;
     border-color: rgba(195, 191, 191, 0.271);
@@ -40,6 +39,7 @@ h1{
     width: 250px;
     height: 250px;
     margin: 5px;
+    
     padding:50px 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -64,18 +64,16 @@ h1{
     
 }
 .hotdog img{
-    width: 250px;
+    width: 260px;
     height: 250px;
     margin:5px;
 }
 .map img{
-    width: 250px;
+    width: 260px;
     height: 250px;
     margin: 5px;
 }
-.images img{
-   
-}
+
 
 .reservation{
     background-color: rgb(56, 205, 78);
@@ -95,7 +93,7 @@ h1{
     font-size: 50px;
 }
 .shef{
-    gap: 15px;
+    gap: 3px;
     margin-top: 15px;
     
 }
@@ -114,11 +112,13 @@ h4{
     font-size: 25px;
 }
 .footer{
-    border-top:1px solid;
-    border-color: gray;
+   border-top: 1px solid;
+   margin: 7px;
+}
+.avocado{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 20px;
 }
-
 .avocado a{
     color: rgb(21, 157, 39);
     text-decoration: none;
@@ -126,8 +126,16 @@ h4{
 .avocado a:hover{
     color: rgb(12, 57, 12);
 }
-.icons i{
+
+
+.icons  {
+    margin: 20px;
+    
+}
+.icons a{
     color: green;
-    width: 32px;
-    height: 32px;
+    text-decoration:none;  
+}
+.icons a:hover{
+    color: rgb(17, 52, 17);
 }
